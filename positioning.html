@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <style>
+        .header{
+            height: 400px;
+            background-color: yellow;
+        }
+        .imagecontainer{
+            height:400px;
+            overflow: hidden;
+            position: absolute;
+            top:0px;
+            z-index: 10;
+        }
+
+        .opacitycontainer{
+            background-color: black;
+            opacity: 50%;
+            height: 400px;
+            width: 100%;
+
+        }
+
+        .textcontainer{
+            height: 400px;
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 0px;
+            z-index: 30;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="imagecontainer">
+        <img class="cityimg" width="100%" src="https://www.outfrontmedia.com/-/media/images/ofm/markets/houston/houston-hero.ashx"></div>
+        <div class="textcontainer">Hey Houston!</div>
+        <div class="opacitycontainer"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .bar{
+            background-color: skyblue;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px;
+
+        }
+
+        .bar a{
+            color: snow;
+            text-decoration: none;
+        }
+
+        .bar a:hover{
+            color: black;
+        }
+
+        .com{
+            flex-grow: 4;
+            display:flex;
+            list-style: none;
+            font-size: 20px;
+        }
+
+
+        .link{
+            display: flex;
+            justify-content: space-around;
+            flex-grow: 1;
+            list-style: none;
+            font-size: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav class="bar">
+        <ul class="com">
+            <li><a href="#">Company Name</a></li>
+        </ul>
+        <ul class="link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

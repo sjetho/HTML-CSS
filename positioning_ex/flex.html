@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 1500px;
+        background-color: thistle;
+        }
+
+        .item{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 400px;
+            height: 1000px;
+            background-color: tomato;
+            margin: 10px;
+            font-size: 30px;
+            color: teal
+        }
+
+        .itemA{
+            border: teal solid 4px;
+            width: 50px;
+            height: 50px;
+            background-color: tomato;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            
+        }
+
+        .item2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            height: 1000px;
+            background-color:teal;
+            margin: 10px;
+            font-size: 30px;
+            color: tomato
+        }
+
+        .item2A{
+            border: tomato solid 4px;
+            width: 50px;
+            height: 50px;
+            background-color: teal;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-end;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item">
+            <div class="itemA"></div>
+            <div class="itemA"></div>
+            <div class="itemA"></div>
+            <div class="itemA"></div>
+            <div class="itemA"></div>
+        </div>
+        <div class="item2">
+            <div class="item2A"></div>
+        </div>
+        <div class="item">
+            <div class="itemA"></div>
+            <div class="itemA"></div>
+        </div>
+        <div class="item2">
+            <div class="item2A"></div>
+        </div>
+        <div class="item">
+            <div class="itemA"></div>
+        </div>
+    </div>
+</body>
+</html>
